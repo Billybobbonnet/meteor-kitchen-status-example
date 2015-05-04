@@ -1,0 +1,16 @@
+<template name="status">
+  {{#unless connected}}
+    <div class="alert-warning text-center" role="alert">
+      <strong>
+        <i class="fa fa-exclamation-triangle"></i>
+        {{message}}
+      </strong>
+
+      {{extraMessage}}
+      
+      {{#if showReconnect}}
+        <a href="#" class="alert-link">{{reconnectLabel}}</a>
+      {{/if}}
+    </div>
+  {{/unless}}
+</template>

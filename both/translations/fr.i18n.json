@@ -1,0 +1,15 @@
+{
+  "meteor_status_connected": "Connecté",
+  "meteor_status_connecting": "Connexion en cours",
+  "meteor_status_failed": "La connexion au serveur a échoué",
+  "meteor_status_waiting": "En attente de connexion au serveur",
+  "meteor_status_offline": "Mode hors-connexion",
+  "meteor_status_reconnect_in": "Réessayer dans quelques secondes",
+  "meteor_status_reconnect_in_plural": "Réessayer dans __count__ secondes...",
+  "meteor_status_try_now_waiting": "Réessayer",
+  "meteor_status_try_now_offline": "Reconnexion",
+  "home_page":"Accueil",
+  "about":"À propos",
+  "hello_world": "Salut tout le monde!",
+  "content": "Cette application est un exemple. Elle a été créée à l'aide de <a href=\"http://www.meteorkitchen.com\">Meteor Kitchen</a> - générateur de code pour Meteor.js"
+}

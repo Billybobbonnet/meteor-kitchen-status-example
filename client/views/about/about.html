@@ -3,15 +3,14 @@
 		<div class="row" id="title_row">
 			<div class="col-md-12">
 				<h2 id="page_title" class="pull-left">
-					About
+					{{_ "about"}}
 				</h2>
 				<div id="page_menu" class="pull-right">
 				</div>
 			</div>
 		</div>
 		<p id="page_text">
-			This example application is built with <a href="http://www.meteorkitchen.com">Meteor Kitchen</a> - code generator for Meteor.js
+			{{{_ "content"}}}<!--three brackets since we have HTML inside the content element-->
 		</p>
 	</div>
 </template>
-

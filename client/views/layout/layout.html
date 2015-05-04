@@ -35,6 +35,7 @@
 		</div>
 		<div class="navbar-spacer">
 		</div>
+		{{> status}}
 		{{> yield}}
 	</div>
 	<div id="footer">
@@ -51,14 +52,13 @@
 			<a href="{{pathFor 'home'}}">
 				<span class="fa fa-home">
 				</span>
-				&nbsp;Home page
+				&nbsp;{{_ "home_page"}}
 			</a>
 		</li>
 		<li id="menu-item-simple" class="{{menuItemClass 'about'}}">
 			<a href="{{pathFor 'about'}}">
-				About
+				{{_ "about"}}
 			</a>
 		</li>
 	</ul>
 </template>
-

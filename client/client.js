@@ -2,7 +2,7 @@ this.App = {};
 this.Helpers = {};
 
 Meteor.startup(function() {
-	
+	TAPi18n.setLanguage('en')
 });
 
 this.menuItemClass = function(routeName) {
@@ -70,4 +70,3 @@ Helpers.integerToTrueFalse = function(i) {
 _.each(Helpers, function (helper, key) {
 	Handlebars.registerHelper(key, helper)
 });
-

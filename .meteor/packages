@@ -6,6 +6,7 @@
 
 meteor-platform
 standard-app-packages
+tap:i18n
 less
 email
 spiderable
@@ -13,3 +14,4 @@ iron:router
 natestrauser:font-awesome
 matb33:collection-hooks
 copleykj:livestamp
+reactive-dict
