@@ -46,11 +46,5 @@ Template.FreeLayoutMainMenu.events({
 });
 
 Template.FreeLayoutMainMenu.helpers({
-	about: function () {
-		return i18n('about')
-	},
 
-	home_page: function () {
-		return i18n('home_page')
-	}
 });

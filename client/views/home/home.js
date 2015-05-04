@@ -13,11 +13,5 @@ Template.Home.events({
 
 Template.Home.helpers({
 
-		home_page: function () {
-			return i18n('home_page')
-		},
-
-		hello_world: function () {
-				return i18n('hello_world')
-			}
+	
 });
